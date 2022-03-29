@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "294018970894",
+    "project_id": "fir-bd62c",
+    "storage_bucket": "fir-bd62c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294018970894:android:22c8c03e6399980abad35f",
+        "android_client_info": {
+          "package_name": "com.blogspot.flutterboss.firebase.firebasedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294018970894-54vma2ndb2tl35rj8fd08v0899r7qkrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDspnSO5Ruj6nP3Z2_IKuImOw91I0AnlSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294018970894-54vma2ndb2tl35rj8fd08v0899r7qkrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
