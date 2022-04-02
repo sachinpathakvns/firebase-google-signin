@@ -5,6 +5,12 @@ An app that efficiently manages to optimize the ease of Signing and Signing-out 
 
 Integrate's Flutter Google SignIn With Firebase to allow user authentication in your Flutter app.
 
+## Feature
+Signin,signout.
+
+## Tech used
+Flutter,Dart,Firebase.
+
 ## Screenshots
 
 ![1648518130970](https://user-images.githubusercontent.com/92446037/160516138-02ebe54e-97f3-451d-8433-8818015c0a01.jpg)
