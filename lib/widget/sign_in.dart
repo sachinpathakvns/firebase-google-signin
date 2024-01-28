@@ -1,19 +1,18 @@
 import 'package:firebasedemo/provider/google_sign_in.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
 
-class signin extends StatelessWidget {
-  const signin({Key? key}) : super(key: key);
+class Signin extends StatelessWidget {
+  const Signin({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) => Padding(
-      padding: EdgeInsets.all(32),
+      padding: const EdgeInsets.all(32),
     child: Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Spacer(),
+        const Spacer(),
         Container(
           child: Image.asset("image/firebase.png"),
           decoration: BoxDecoration(
@@ -22,8 +21,8 @@ class signin extends StatelessWidget {
           ),
           height: 350,
         ),
-        Spacer(),
-        Align(
+        const Spacer(),
+        const Align(
           alignment: Alignment.centerLeft,
           child: Text(
             'Hi There,\nWelcome Back',
@@ -33,28 +32,27 @@ class signin extends StatelessWidget {
             ),
           ),
         ),
-        SizedBox(height: 10),
-        Align(
+        const SizedBox(height: 10),
+        const Align(
           alignment: Alignment.centerLeft,
           child: Text("Login to your account to continue",
           style: TextStyle(fontSize: 16),
           ),
         ),
-        Spacer(),
+        const Spacer(),
         ElevatedButton.icon(
             style: ElevatedButton.styleFrom(
-            primary: Colors.white,
-            onPrimary: Colors.black,
-            minimumSize: Size(double.infinity,50),
+            foregroundColor: Colors.black, backgroundColor: Colors.white,
+            minimumSize: const Size(double.infinity,50),
           ),
           onPressed: (){
             final provider = Provider.of<GooglesignInProvider>(context,listen: false);
             provider.googleLogin();
           },
-          icon: FaIcon(FontAwesomeIcons.google,color: Colors.red,),
-          label: Text('Sign Up with Google'),),
-        SizedBox(height: 40,),
-        RichText(text: TextSpan(
+          icon: const FaIcon(FontAwesomeIcons.google,color: Colors.red,),
+          label: const Text('Sign Up with Google'),),
+        const SizedBox(height: 40,),
+        RichText(text: const TextSpan(
           text: 'Already have an account?',
           children: [
             TextSpan(text: 'Login',

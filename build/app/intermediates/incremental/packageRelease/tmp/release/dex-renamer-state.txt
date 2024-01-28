@@ -1,4 +1,0 @@
-#Thu Mar 24 17:51:41 IST 2022
-base.0=C\:\\Users\\sachin\\firebasedemo\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex

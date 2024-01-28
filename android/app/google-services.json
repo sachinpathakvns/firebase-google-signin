@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "294018970894-5qaao84q41l1ltn4topu08uq5rvc3ane.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blogspot.flutterboss.firebase.firebasedemo",
+            "certificate_hash": "2cbaadda21ad778f54226e6afb1220136d978236"
+          }
+        },
+        {
           "client_id": "294018970894-54vma2ndb2tl35rj8fd08v0899r7qkrs.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,6 +37,49 @@
             {
               "client_id": "294018970894-54vma2ndb2tl35rj8fd08v0899r7qkrs.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "294018970894-5coi93tm2o8k83dtdpofu9sua3h1avnk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.blogspot.flutterboss.firebase.firebasedemo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294018970894:android:a7e7ff89c60b87f6bad35f",
+        "android_client_info": {
+          "package_name": "com.testingchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294018970894-54vma2ndb2tl35rj8fd08v0899r7qkrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDspnSO5Ruj6nP3Z2_IKuImOw91I0AnlSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294018970894-54vma2ndb2tl35rj8fd08v0899r7qkrs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "294018970894-5coi93tm2o8k83dtdpofu9sua3h1avnk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.blogspot.flutterboss.firebase.firebasedemo"
+              }
             }
           ]
         }
